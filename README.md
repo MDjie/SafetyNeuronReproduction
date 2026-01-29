@@ -1,5 +1,5 @@
 # SafetyNeuron
-Data and code for the paper: Finding Safety Neurons in Large Language Models
+Data and code for the paper: Towards Understanding Safety Alignment: A Mechanistic Perspective from Safety Neurons (NeurIPS 2025)
 
 
 ## Installation
@@ -86,10 +86,12 @@ Use `src/neuron_activation.py` to create the training datasets. Use `src/predict
 If you find our code useful, we will sincerely appreciate it and encourage you to cite the following article:
 
 ```bibtex
-@article{chen2024finding,
-  title={Finding Safety Neurons in Large Language Models},
-  author={Chen, Jianhui and Wang, Xiaozhi and Yao, Zijun and Bai, Yushi and Hou, Lei and Li, Juanzi},
-  journal={arXiv preprint arXiv:2406.14144},
-  year={2024}
+@inproceedings{
+chen2025towards,
+title={Towards Understanding Safety Alignment: A Mechanistic Perspective from Safety Neurons},
+author={Jianhui Chen and Xiaozhi Wang and Zijun Yao and Yushi Bai and Lei Hou and Juanzi Li},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=AAXMcAyNF6}
 }
  ```
