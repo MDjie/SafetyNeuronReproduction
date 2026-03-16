@@ -1,5 +1,5 @@
 # check if there is $HF_TOKEN in the environment variables
-export HF_TOKEN=
+export HF_TOKEN=    
 if [ -z "$HF_TOKEN" ]
 then
     echo "Warning: HuggingFace dataset LIMA requires permissive access."
